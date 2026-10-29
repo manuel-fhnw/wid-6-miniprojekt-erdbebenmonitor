@@ -7,7 +7,7 @@ body {
 .app {
   display: grid;
   min-height: 100vh;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 300px 1fr;
   grid-template-rows: auto 1fr;
 }
 
@@ -24,6 +24,7 @@ body {
 
 .aside {
   border-right: 1px solid grey;
+  padding: 10px;
 }
 .main {
   background: white;

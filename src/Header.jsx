@@ -1,5 +1,5 @@
+import Typography from '@mui/material/Typography';
+
 export const Header = () => (
-  <div className="header">
-    <header>IGEO Erdbebenmonitor</header>
-  </div>
+  <Typography variant="h3" sx={{color:"#1e88e5"}} className='header'>IGEO Erdbebenmonitor</Typography>
 );
